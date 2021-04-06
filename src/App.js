@@ -5,7 +5,7 @@ import './App.css';
 
 import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
-import ShopePage from './pages/shop/shop.component';
+import ShopePage from './redux/shop/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import setCurrentUser from '../src/redux/user/user.action';
